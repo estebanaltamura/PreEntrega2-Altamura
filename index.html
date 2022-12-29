@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="nuevoEnvio" class="nuevoEnvio">
+        <label class="numeroOrdenLabel label" for="nuevoEnvio">Numero de orden:</label>
+        <input class="numeroOrdenInput input" id="numeroOrdenInput" type="text">
+        <label class="rangoHorarioLabel label" for="nuevoEnvio">Rango horario:</label>
+        <select class="rangoHorarioInput input" id="rangoHorarioInput" name="rangoHorarioInput" id="">
+            <option class="input" value="pre apertura">pre apertura</option>
+            <option class="input" value="mañana">mañana</option>
+            <option class="input" value="tarde">tarde</option>
+            <option class="input" value="post cierre">post cierre</option>
+        </select>
+        <label class="numeroRemitoLabel label" for="nuevoEnvio">numero de remito:</label>
+        <input class="numeroRemitoInput input" id="numeroRemitoInput" type="text">
+        <label class="prioridadLabel label" for="nuevoEnvio">Prioridad:</label>
+        <select class="prioridadInput input" id="prioridadInput" name="prioridadInput" id="">
+            <option class="input" value="baja">baja</option>
+            <option class="input" value="media">media</option>
+            <option class="input" value="alta">alta</option>
+            <option class="input" value="urgente">urgente</option>
+        </select>
+        <button id="BotonEnviarInformacion" class="BotonEnviarInformacion">Nuevo envio</button>
+
+    </form>
+
+    <div id="moduloPintarTablaaPartirdeObjetos" class="table"></div>
+
+    <div id="navegacion" class="navegacion">
+        <img id="flechaAtras" class="flechas" src="./imagenes/icons8-chevron-left-60.png" alt="">
+        <span id="paginaActual"></span>
+        <span>/</span>
+        <span id="paginasTotales"></span>
+        <img id="flechaAdelante" class="flechas" src="./imagenes/icons8-chevron-right-60.png" alt="">
+    </div>
+
+
+
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
+
