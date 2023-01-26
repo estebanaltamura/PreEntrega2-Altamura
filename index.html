@@ -8,7 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="nuevoEnvio" class="nuevoEnvio">
+    <h1>MODULO LOGISTICA</h1>
+    <h2>Herramienta para coordinar envios diarios</h2>
+    <button class="nuevoEnvioButton" id="nuevoEnvioButton">NUEVO ENVIO</button>
+    <h3>Ordenar por: </h3>
+    <select name="" id="select" class="select">
+        <option value=""></option>
+        <option value="Id">Id</option>
+        <option value="Rango horario">Rango horario</option>
+        <option value="Numero de remito">Numero de remito</option>
+        <option value="Prioridad">Prioridad</option>
+    </select>
+    
+
+    <div id="moduloPintarTablaaPartirdeObjetos" class="table"></div>
+
+    <div id="navegacion" class="navegacion">
+        <img id="flechaAtras" class="flechas" src="./imagenes/icons8-chevron-left-60.png" alt="">
+        <span id="paginaActual"></span>
+        <span>/</span>
+        <span id="paginasTotales"></span>
+        <img id="flechaAdelante" class="flechas" src="./imagenes/icons8-chevron-right-60.png" alt="">
+    </div>
+
+
+
+
+    <!-- <form id="nuevoEnvio" class="nuevoEnvio">
         <label class="numeroOrdenLabel label" for="nuevoEnvio">Numero de orden:</label>
         <input class="numeroOrdenInput input" id="numeroOrdenInput" type="text">
         <label class="rangoHorarioLabel label" for="nuevoEnvio">Rango horario:</label>
@@ -29,17 +55,9 @@
         </select>
         <button id="BotonEnviarInformacion" class="BotonEnviarInformacion">Nuevo envio</button>
 
-    </form>
+    </form> -->
 
-    <div id="moduloPintarTablaaPartirdeObjetos" class="table"></div>
-
-    <div id="navegacion" class="navegacion">
-        <img id="flechaAtras" class="flechas" src="./imagenes/icons8-chevron-left-60.png" alt="">
-        <span id="paginaActual"></span>
-        <span>/</span>
-        <span id="paginasTotales"></span>
-        <img id="flechaAdelante" class="flechas" src="./imagenes/icons8-chevron-right-60.png" alt="">
-    </div>
+    
 
 
 

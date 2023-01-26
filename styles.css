@@ -5,11 +5,55 @@
     user-select: none;
 }
 
+h1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    margin-top: 30px;
+    font-size: 22px;
+    justify-content: center;
+}
+
+.select{
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px auto 0 auto;
+}
+
+
+
+.nuevoEnvioButton{
+    display: flex;
+    background-color: rgb(182, 39, 226);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 30px auto;
+    width:200px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: 4px 4px 4px 0px #4c4c4c;
+}
+
 .table{
     margin: 0 auto;
     text-align: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     display: grid;
     width: fit-content;
 }
@@ -45,37 +89,7 @@
                          "boton boton";
 }
 
-.numeroOrdenLabel{
-    grid-area: numeroOrdenLabel;
-}
 
-.rangoHorarioLabel{
-    grid-area: rangoHorarioLabel;
-}
-
-.numeroRemitoLabel{
-    grid-area: numeroRemitoLabel;
-}
-
-.prioridadLabel{
-    grid-area: prioridadLabel;
-}
-
-.numeroOrdenInput{
-    grid-area: numeroOrdenValue
-}
-
-.rangoHorarioInput{
-    grid-area: rangoHorarioValue
-}
-
-.numeroRemitoInput{
-    grid-area: numeroRemitoValue
-}
-
-.prioridadInput{
-    grid-area: prioridadValue
-}
 
 .input{
     text-align: center;
